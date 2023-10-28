@@ -341,6 +341,7 @@ int fun3(int argc,char **argv){
     int i=3;
     for (; i < argc; ++i) {
         n+= strlen(argv[i]);
+        n++;
     }
     char str[n+1];
     char *p=str;
